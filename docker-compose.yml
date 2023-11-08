@@ -1,0 +1,20 @@
+version: '2.22.0'
+
+services:
+  frontend:
+    image: zain0456/nodeapp:frontend  # Using the frontend image from Docker Hub
+    ports:
+      - "8080:8080"  # Map host machine's port 8080 to the container's port 8080
+    networks:
+      - app-network  # Attach the service to the app-network
+
+  backend:
+    image: zain0456/nodeapp:backend  # Using the backend image from Docker Hub
+    ports:
+      - "3001:3001"  # Map host machine's port 3001 to the container's port 3001
+    networks:
+      - app-network  # Attach the service to the app-network
+
+networks:
+  app-network:
+    driver: bridge  # Use the bridge network driver
