@@ -16,8 +16,6 @@ Now both frontend and backend will start working
 
 ## First things first
 ```
-first install docker engine
-```
 First install nodeJs
 ```
 ## Project setup
