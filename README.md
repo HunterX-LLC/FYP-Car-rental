@@ -5,6 +5,8 @@ To start this project you have two options either with docker and directly with 
 first install docker engine
 ```
 ## Run using docker
+Open command line in project directory and run this command below
+
 ```
 docker-compose up
 ```
@@ -40,7 +42,7 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-###2nd method (Backend)
+2nd method (Backend)
 
 ## Project setup
 ```
