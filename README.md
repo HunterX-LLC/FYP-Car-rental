@@ -10,7 +10,8 @@ docker-compose up
 ```
 Now both frontend and backend will start working
 
-##2nd method (FrontEnd)
+2nd method (FrontEnd)
+
 ## First things first
 ```
 first install docker engine
