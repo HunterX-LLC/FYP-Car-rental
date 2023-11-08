@@ -6,15 +6,11 @@ first install docker engine
 ```
 ## Run using docker
 ```
-Open command line where docker-compose.yml exist and run
-
 docker-compose up
 ```
 Now both frontend and backend will start working
 
 ##2nd method (FrontEnd)
-```
-```
 ## First things first
 ```
 first install docker engine
