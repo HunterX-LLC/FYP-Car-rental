@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen flex items-center justify-center bg-gray-100">
+    <div class="min-h-screen flex items-center justify-center bg-black-100">
       <div class="bg-white p-8 rounded shadow-md w-96">
               <!-- loader  -->
               <LoaderComp v-show="!validationError && showLoader"/>
