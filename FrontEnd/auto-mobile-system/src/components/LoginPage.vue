@@ -3,7 +3,7 @@
       <div class="bg-white p-8 rounded shadow-md w-96">
               <!-- loader  -->
               <LoaderComp v-show="!validationError && showLoader"/>
-        <h2 class="text-2xl font-semibold mb-4 p-2">Login</h2>
+        <h2 class="text-2xl font-semibold mb-4 p-2">User Login</h2>
         <div v-show="validationError != null">
           <li class="text-red-400 text-left" >{{ validationError }}</li>
        </div> 
